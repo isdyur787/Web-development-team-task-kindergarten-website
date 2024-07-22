@@ -1,0 +1,307 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff4e6;
+  }
+
+  #clock{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    color: #ff9900;
+    font-size: 24px;
+  }
+.header {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  width: 1200px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  margin-top: -5px;
+  background-color: #ff9900;
+  padding: 10px 0;
+  border-radius: 8px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-li {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-li li {
+  margin: 0 5px;
+  color: white;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+.nav-li li span {
+  margin-left: 9px;
+  color: white;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-columns: 300px 400px 500px;
+}
+
+.left-section {
+  width: 100%;
+  background-color: #ff9900;
+  justify-content: center;
+  align-content: center;
+  border-radius: 8px;
+  height: 980px;
+}
+
+.notice{
+  width: 300px;
+  justify-items: center;
+}
+.notice-ul{
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.notice svg{
+  color: grey;
+  width: 18px;
+  position: absolute;
+  top: 270px;
+  left: 250px;
+}
+
+.notice .svg1{
+  color: red;
+  width: 22px;
+  position: absolute;
+  top: 21px;
+  left: 80px;
+}
+
+.notice p{
+  color: grey;
+  font-size: 14px;
+  position: absolute;
+  top: 256px;
+  left: 216px;
+}
+
+.notice a{
+  color: black;
+}
+
+.notice a:hover{
+  color: rgb(4, 216, 4);
+}
+
+.notice-ul li{
+  padding-bottom: 16px;
+}
+
+.notice-h3{
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 0.7px 3px #f0f0f0;
+}
+
+.quickroad{
+  display: grid;
+  justify-content: center;
+
+}
+
+.quickroad-h3{
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 0.7px 3px #f0f0f0;
+  padding-bottom: 60px;
+}
+
+.quickroad img{
+  padding-bottom: 25px;
+  width: 270px;
+  height: auto;
+}
+.news{
+  background-color: white;
+  width:880px;
+  height:720px;
+  position: relative;
+  top:10px;
+  left: 15px;
+  border: solid;
+  border-color: darkgray;
+  line-height:2.5;
+  font-size: small;
+}
+.news1{
+  background-color: white;
+  width:880px;
+  height:1550px;
+  position: relative;
+  top:10px;
+  left: 15px;
+  border: solid;
+  border-color: darkgray;
+  line-height:2.5;
+  font-size: small;
+}
+.news a{
+  color: black;
+}
+.news a:hover{
+  color:green
+}
+.neir{
+  position: relative;
+  top:10px;
+  left:25px;
+}
+.little{
+  background-color: gainsboro;
+  width: 880px;
+  height:35px;
+  position: relative;
+  border: solid;
+  border-color: darkgray;
+  font-weight: 800; 
+}
+.date{
+  background-color: white;
+  width:100px;
+  height: 630px;
+  position: relative;
+  top:52px;
+  left:380px;
+  text-align: right;
+  line-height:2.5;
+  font-size: small;
+}
+.btn{
+  width:auto;
+  height: auto;
+  position: relative;
+  left:468px;
+  top:25px;
+  }
+.v{
+  width:800px;
+  position: relative;
+  left:20px;
+}
+.w{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  top: 18px;
+}
+.ww{
+  position: relative;
+  text-align: center;
+  font-size: small;
+  font-weight: 300;
+  top: 5px;
+}
+.www{
+  position: relative;
+  text-align:left;
+  font-size:medium;
+  font-weight: 500;
+  top: 5px;
+}
+.xph{
+  position: relative;
+  left:75px;
+}
+.wow{
+  font-size: 8px;
+}
+.back{
+  position: relative;
+  left: 200px;
+}
+  footer{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1200px;
+  }
+  footer img{
+    width: 1220px;
+    height: auto;
+  }
+  footer div{
+    margin-top: -20px;
+    padding: 10px 10px;
+    width: 1200px;
+    background-color: green;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+  }
+  /* 响应式设计 */
+  /* 适用于屏幕宽度不超过768像素的设备（例如大多数平板电脑和小屏幕的笔记本电脑） */
+  @media (max-width: 768px) {
+    .nav .wrap {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-li {
+        flex-direction: column;
+    }
+
+    .nav-li li {
+        margin: 5px 0;
+    }
+}
+/* 这部分样式适用于屏幕宽度不超过480像素的设备（例如大多数智能手机）。 */
+@media (max-width: 480px) {
+    .logo {
+        width: 100%;
+    }
+
+    .nav .wrap {
+        padding: 5px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蓝天幼儿园</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <div id="clock"></div>
+    <div class="header">
+        <img src="../img/lt.jpg" alt="蓝天幼儿园" class="logo" width="1200px">
+        <div class="nav">
+          <div class="wrap">
+            <ul class="nav-li">
+              <li><a href="../../sym/code/index.html" target="_blank">首页</a><span>|</span></li>
+              <li><a href="../../sym/code/gardenIntroduction.html" target="_blank">园区简介</a><span>|</span></li>
+              <li><a href="../../wbf/code/massageCenter.html" target="_blank">信息中心</a><span>|</span></li>
+              <li><a href="../../sym/code/atendence.html" target="_blank">值班状态</a><span>|</span></li>
+              <li><a href="../../szb/two/code/activity.html" target="_blank">课程&活动</a><span>|</span></li>
+              <li><a href="../../xyh/code/Excellent class.html" target="_blank">优秀班级</a><span>|</span></li>
+              <li><a href="../../szb/one/code/enroll.html" target="_blank">加入我们</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-section">
+          <div class="notice">
+            <h3 class="notice-h3">公告中心</h3>
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+            </svg>
+            <ul class="notice-ul">
+              <li><a>注意！冷空气来了</a></li>
+              <li><a>感恩节活动通知</a></li>
+              <li><a>宝宝在线</a></li>
+              <li><a>家长入园通知</a></li>
+              <li><a>作业辅导指南</a></li>
+            </ul>
+            <p><a>更多</a></p>
+                <svg class="more" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                </svg>
+          </div>
+          <div class="quickroad">
+            <h3 class="quickroad-h3">- - - 快速通道 - - -</h3>
+            <img src="../img/ysjj.jpg"/>
+            <img src="../img/ryxz.jpg"/>
+            <img src="../img/jszx.jpg"/>
+            <img src="../img/bzsp.jpg"/>
+          </div>
+        </div>
+        <div class="middle">
+          <img src="../img/adv_5.jpg"/>
+        </div>
+        <div class="main-section">
+            <div class="news">
+                <h3>学校新闻</h3>
+                <span>2024年新生录取报告</span>
+                <p>各位家长：感谢您对蓝天幼儿园的关注！我园的新生预报名工作已经结束...<span2>[查看详情]</span2></p>
+                <ul>
+                    <li>2024年新生录取通告... &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[2024.7.1]</li>
+                    <li>幼儿园寒假放假安排... &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[2023/11/18]</li>
+                    <li>2023年幼儿园秋季招生... &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[2023/9/2]</li>
+                    <li>2023年幼儿园预招生... &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[2023/6/23]</li>
+                  </ul>
+            </div>
+            <div class="activities">
+                <h3>活动风采</h3>
+                <div class="outer">
+                  <div class="inner">
+                    <img src="../img/09c0591b095d470aa836281213629254.jpeg" alt="activities1">
+                    <img src="../img/22a3560e9ab8478eb4399e44ce86e8ec.jpeg" alt="activities2">
+                    <img src="../img/97d18943f8e8452fb04878e47bc739d9.jpeg" alt="activities3">
+                    <img src="../img/dbd8b4d4f7554d8e820ba75a47c2d2e0.jpeg" alt="activities4">
+                  </div>
+                </div>
+                <div class="shift">
+                  <button class="btn left" onclick="leftShift()">&lt;</button>
+                  <button class="btn right" onclick="rightShift()">&gt;</button>
+                </div>
+                <div class="bottom">
+                  <button class="indicator" onclick="setIndex(0)"></button>
+                  <button class="indicator" onclick="setIndex(1)"></button>
+                  <button class="indicator" onclick="setIndex(2)"></button>
+                  <button class="indicator" onclick="setIndex(3)"></button>
+                </div>
+            </div>
+            <div class="teach">
+              <h3>育儿宝典</h3>
+              <div >
+                <ul class="teach-ul">
+                  <li>园长妈妈讲故事 ——— 《接着！春天来了》</li>
+                  <li>园长妈妈讲故事 ——— 《饺子和汤圆》</li>
+                  <li>育儿宝典第13篇 ——— 《作业辅导篇》</li>
+                  <li>育儿宝典第12篇 ——— 《心理健康篇》</li>
+                  <li>园长妈妈讲故事 ——— 《我的身体》</li>
+                  <li>园长妈妈讲故事 ——— 《我的家庭成员》</li>
+                  <li>园长妈妈讲故事 ——— 《好朋友》</li>
+                </ul>
+              </div>
+            </div>
+            <div class="classActive">
+              <h3>班级动态</h3>
+              <div class="classActive-detail">
+                <svg class="svg1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                </svg>
+                <svg class="svg2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                </svg>
+                <svg class="svg3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                </svg>
+                
+                <button>宝一班</button>
+                <button>宝二班</button>
+                <button>小一班</button>
+                <button>小二班</button>
+                <button>小三班</button>
+                <button>小四班</button>
+                <button>中一班</button>
+                <button>中二班</button>
+                <button>中三班</button>
+                <button>中四班</button>
+                <button>中五班</button>
+                <button>大一班</button>
+                <button>大二班</button>
+                <button>大三班</button>
+                <button>大四班</button>
+                <button>大五班</button>
+                <button>大六班</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <footer>
+      <img src="../img/foot_bg.jpg">
+      <div>
+        <p>网站制作：大连工业大学ISEC231 3组 邵昱铭</p>
+        <p>仅用于学习用途</p>
+        <p>This web is for learning purposes only</p>
+      </div>
+    </footer>
+</body>
+</html>

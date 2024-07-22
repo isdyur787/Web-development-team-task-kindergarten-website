@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加入我们</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="clock"></div>
+    <div class="header">
+        <img src="../img/lt.jpg" alt="蓝天幼儿园" class="logo" width="1200px">
+        <div class="nav">
+            <div class="wrap">
+                <ul class="nav-li">
+                    <li><a href="../../../sym/code/index.html" target="_blank">首页</a><span>|</span></li>
+                    <li><a href="../../../sym/code/gardenIntroduction.html" target="_blank">园区简介</a><span>|</span></li>
+                    <li><a href="../../../wbf/code/massageCenter.html" target="_blank">信息中心</a><span>|</span></li>
+                    <li><a href="../../../sym/code/atendence.html" target="_blank">值班状态</a><span>|</span></li>
+                    <li><a href="../../../szb/two/code/activity.html" target="_blank">课程&活动</a><span>|</span></li>
+                    <li><a href="../../../xyh/code/Excellent class.html" target="_blank">优秀班级</a><span>|</span></li>
+                    <li><a href="../../../szb/one/code/enroll.html" target="_blank">加入我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <div class="notice">
+                <h3 class="notice-h3">公告中心</h3>
+                <svg class="svg1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                </svg>
+                
+                <ul class="notice-ul">
+                    <li><a href="#" target="_blank">注意！冷空气来了</a></li>
+                    <li><a href="#" target="_blank">感恩节活动通知</a></li>
+                    <li><a href="#" target="_blank">宝宝在线</a></li>
+                    <li><a href="#" target="_blank">家长入园通知</a></li>
+                    <li><a href="#" target="_blank">作业辅导指南</a></li>
+                </ul>
+                <p>更多</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                </svg>
+                
+            </div>
+            <div class="quickroad">
+                <h3 class="quickroad-h3">- - - 快速通道 - - -</h3>
+                <img src="../img/ysjj.jpg"/>
+                <img src="../img/ryxz.jpg"/>
+                <img src="../img/jszx.jpg"/>
+                <img src="../img/bzsp.jpg"/>
+            </div>
+        </div>
+        <div class="right-section">
+          <div class="little">您的位置：首页>>加入我们</div>
+
+            <!-- 代码写在这里 -->
+            <!-- <div id="recruitment-container" style="display: none;"> -->
+                <div id="home">
+                    <h1>招聘/招生页面</h1>
+                    <button class="button" id="teacher-recruitment">老师招聘</button>
+                    <button class="button" id="student-recruitment">学生入学</button>
+                    <div id="submission-message" class="success"></div>
+                </div>
+            
+                <div id="teacher-container" class="contain">
+                    <h1>老师招聘</h1>
+                    <form id="teacher-form">
+                        <label for="teacher-gender">性别：</label>
+                        <select id="teacher-gender" name="teacher-gender" required>
+                            <option value="">请选择性别</option>
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                            <option value="other">其他</option>
+                        </select><br>
+                        <label for="teacher-name">姓名：</label>
+                        <input type="text" id="teacher-name" name="teacher-name" required><br>
+                        <label for="teacher-id">身份证号：</label>
+                        <input type="text" id="teacher-id" name="teacher-id" required pattern="[0-9]{18}" title="请输入正确的18位身份证号码"><br>
+                        <label for="teacher-education">学历：</label>
+                        <input type="text" id="teacher-education" name="teacher-education" required><br>
+                        <label for="teacher-address">家庭住址：</label>
+                        <input type="text" id="teacher-address" name="teacher-address" required><br>
+                        <label for="teacher-number">手机号码：</label>
+                        <input type="text" id="teacher-number" name="teacher-number" required pattern="[0-9]{11}" title="请输入正确的11位手机号码"><br>
+                        <div class="submit-container">
+                            <input type="submit" value="提交">
+                        </div>
+                    </form>
+                    <div id="teacher-success" class="success">老师信息已提交</div>
+                </div>
+            
+                <div id="student-container" class="contain">
+                    <h1>学生入学</h1>
+                    <form id="student-form">
+                        <label for="student-gender">性别：</label>
+                        <select id="student-gender" name="student-gender" required>
+                            <option value="">请选择性别</option>
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                            <option value="other">其他</option>
+                        </select><br>
+                        <label for="student-name">姓名：</label>
+                        <input type="text" id="student-name" name="student-name" required><br>
+                        <label for="student-id">身份证号：</label>
+                        <input type="text" id="student-id" name="student-id" required pattern="[0-9]{18}" title="请输入正确的18位身份证号码"><br>
+                        <label for="parent-number">监护人手机号：</label>
+                        <input type="text" id="parent-number" name="parent-number" required pattern="[0-9]{11}" title="请输入正确的11位手机号码"><br>
+                        <label for="student-address">家庭住址：</label>
+                        <input type="text" id="student-address" name="student-address" required><br>
+                        <label for="student-skill">个人特长：</label>
+                        <input type="text" id="student-skill" name="student-skill" required><br>
+                        
+                        <div class="submit-container">
+                            <input type="submit" value="提交">
+                        </div>
+                    </form>
+                    <div id="student-success" class="success">学生信息已提交</div>
+                </div>
+        </div>
+    </div>
+    
+    </div>
+    <footer>
+        <img src="../img/foot_bg.jpg">
+        <div>
+            <p>网站制作：大连工业大学ISEC231 3组 孙智博</p>
+            <p>仅用于学习用途</p>
+            <p>This web is for learning purposes only</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+   background-color: #fff4e6;
+  }
+
+  #clock{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    color: #ff9900;
+    font-size: 24px;
+  }
+.header {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  width: 1200px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  margin-top: -5px;
+  background-color: #ff9900;
+  padding: 10px 0;
+  border-radius: 8px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-li {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-li li {
+  margin: 0 5px;
+  color: white;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+.nav-li li span {
+  margin-left: 9px;
+  color: white;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-columns: 300px 400px 500px;
+}
+
+.left-section {
+  width: 100%;
+  background-color: #ff9900;
+  justify-content: center;
+  align-content: center;
+  border-radius: 8px;
+  height: 980px;
+}
+
+.notice{
+  width: 300px;
+  justify-items: center;
+}
+.notice-ul{
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.notice svg{
+  color: grey;
+  width: 18px;
+  position: absolute;
+  top: 270px;
+  left: 250px;
+}
+
+.notice .svg1{
+  color: red;
+  width: 22px;
+  position: absolute;
+  top: 21px;
+  left: 80px;
+}
+
+.notice p{
+  color: grey;
+  font-size: 14px;
+  position: absolute;
+  top: 256px;
+  left: 216px;
+}
+
+.notice a{
+  color: black;
+}
+
+.notice a:hover{
+  color: rgb(4, 216, 4);
+}
+
+.notice-ul li{
+  padding-bottom: 16px;
+}
+
+.notice-h3{
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 0.7px 3px #f0f0f0;
+}
+
+.quickroad{
+  display: grid;
+  justify-content: center;
+
+}
+
+.quickroad-h3{
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 0.7px 3px #f0f0f0;
+  padding-bottom: 60px;
+}
+
+.quickroad img{
+  padding-bottom: 25px;
+  width: 270px;
+  height: auto;
+}
+
+/* 新代码写在这里 */
+.title-szb {
+  text-align: center; 
+}
+
+.title-szb  {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f66905; /* 文字颜色 */
+}
+
+.right-section {
+  margin:  auto;
+  width: 900px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.w1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  flex: 0 0 48%;
+}
+
+.left {
+  order: 1; /* 将左侧部分放在右侧部分之前 */
+}
+
+.right {
+  order: 2; /* 将右侧部分放在左侧部分之后 */
+}
+
+.con1,
+.con2 {
+  padding: 10px;
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.p_img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.p_tit {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.p_con {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+  footer{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1200px;
+  }
+  footer img{
+    width: 1220px;
+    height: auto;
+  }
+  footer div{
+    margin-top: -20px;
+    padding: 10px 10px;
+    width: 1200px;
+    background-color: green;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+  }
+  /* 响应式设计 */
+  /* 适用于屏幕宽度不超过768像素的设备（例如大多数平板电脑和小屏幕的笔记本电脑） */
+  @media (max-width: 768px) {
+    .nav .wrap {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-li {
+        flex-direction: column;
+    }
+
+    .nav-li li {
+        margin: 5px 0;
+    }
+}
+/* 这部分样式适用于屏幕宽度不超过480像素的设备（例如大多数智能手机）。 */
+@media (max-width: 480px) {
+    .logo {
+        width: 100%;
+    }
+
+    .nav .wrap {
+        padding: 5px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
